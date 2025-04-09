@@ -80,7 +80,7 @@ const UserSignup = () => {
           />
 
           <button className="bg-[#111] text-white font-semibold mb-3 rounded px-2 py-2 w-full text-lg">
-            Signup
+            Creat Account
           </button>
 
           <p className="text-center">
