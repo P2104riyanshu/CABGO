@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Home = () => {
+const Start = () => {
   return (
     <div>
       <div className="bg-cover bg-center bg-[url('https://t4.ftcdn.net/jpg/02/76/72/91/360_F_276729195_EUSoVepkkTdfJnJaIzNIEVgM3usaxqU2.jpg')] h-screen pt-8 flex justify-between flex-col w-full">
@@ -24,4 +24,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Start;
