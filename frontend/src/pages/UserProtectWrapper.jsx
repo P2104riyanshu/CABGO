@@ -49,3 +49,4 @@ const UserProtectWrapper = ({ children }) => {
 };
 
 export default UserProtectWrapper;
+// This component is used to protect routes that require user authentication. It checks if the user is logged in by verifying the token stored in local storage. If the token is not present, it redirects the user to the login page. If the token is present, it fetches the user's profile data and sets it in the context. If there is an error during the fetch, it also redirects to the login page. The component displays a loading message while waiting for the user data to be fetched.
